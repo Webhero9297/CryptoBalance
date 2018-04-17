@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("../assets/fonts/Montserrat-Black.otf");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../assets/fonts/Montserrat-Bold.otf");
+}
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url("../assets/fonts/Montserrat-ExtraBold.otf");
+}
+@font-face {
+    font-family: "Montserrat-Hairline";
+    src: url("../assets/fonts/Montserrat-Hairline.otf");
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../assets/fonts/Montserrat-Light.otf");
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../assets/fonts/Montserrat-Regular.otf");
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../assets/fonts/Montserrat-SemiBold.otf");
+}
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url("../assets/fonts/Montserrat-Thin.ttf");
+}
+@font-face {
+    font-family: "Montserrat-UltraLight";
+    src: url("../assets/fonts/Montserrat-UltraLight.otf");
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.visible {
+    display: block;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-family: Montserrat-UltraLight;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+/**********************************   FilterLIst Start   **************************************/
+.myInput {
+    background: white;
+    background-image: url(../assets/images/searchicon.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px 20px 8px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    font-family: Montserrat-Hairline;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.myUL {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    min-height: 600px;
+    height:700px;
+    overflow-y: scroll;
+}
+
+.myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    padding: 2px 15px;
+}
+
+.myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+/**********************************   FilterLIst End   **************************************/
+
+#standard_balance {
+    font-family: Montserrat-Regular;
+}
+.a-active {
+    background: lightblue!important;
+}
+/*#myUL {*/
+    /*min-height: 600px;*/
+    /*height:700px;*/
+    /*overflow-y: scroll;*/
+/*}*/
